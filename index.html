@@ -18,8 +18,28 @@
 
     <!-- tailwind script -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font-awesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
   <body>
-    
+    <header>
+        <nav class="flex justify-around bg-[#1A0B2E] text-white py-6 items-center">
+            <h1 class="text-4xl font-bold">Tech<span class="bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8] bg-clip-text text-transparent">Wave</span></h1>
+
+            <div class="hidden sm:block lg:block md:block">
+                <ul class="flex gap-8 text-lg/120%">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Episodes</a></li>
+                    <li><a href="">Host</a></li>
+                </ul>
+            </div>
+
+            <button class="hidden sm:block lg:block md:block px-4 py-3 rounded-full bg-gradient-to-l to-[#F7E93F] via-[#FB09B4] from-[#9100F8]">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+
+            <img src="./assets/hamburger-menu.png" alt="" class="sm:hidden md:hidden lg:hidden">
+        </nav>
+    </header>
   </body>
 </html>
